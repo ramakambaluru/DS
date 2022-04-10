@@ -18,5 +18,13 @@
     <ClCompile Include="main_source.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="linkedlist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="all_librabries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

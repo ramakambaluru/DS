@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="linkedlist.c" />
     <ClCompile Include="main_source.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="all_librabries.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

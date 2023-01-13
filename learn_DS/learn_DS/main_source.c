@@ -3,12 +3,14 @@
 
 int main()
 {
+	int x = 0x80000000;
+	int y = x >> 31;
+	printf("y = 0x%x\n", y); // y = 0x00000001
 	printf("Namaskara _/\\_ \n");
-
-	pNode pHead = (pNode)(malloc(sizeof(node)));
-	pHead->next = NULL;
-
-	createLinkedList(&pHead);
+	pNode pHead = NULL;
+	pHead = createLinkedList();
+	
+	reverseLinkedList(&pHead);
 
 
 	return 0;

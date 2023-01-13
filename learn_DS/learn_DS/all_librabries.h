@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-typedef struct node
+struct node
 {
 	int data;
 	struct node* next;
@@ -13,4 +13,9 @@ typedef struct node* pNode;
 
 void appendNode(pNode* head, int data);
 void printLList(pNode head);
-void createLinkedList(pNode* head);
+pNode createLinkedList(void);
+void reverseLinkedList(pNode pHead);
+
+
+
+int binarySearch(int* sortedArray, int length, int elementToFind);

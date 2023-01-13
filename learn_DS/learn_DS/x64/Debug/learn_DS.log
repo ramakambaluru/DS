@@ -1,1 +1,4 @@
-﻿  learn_DS.vcxproj -> E:\DataStructures\DS\learn_DS\x64\Debug\learn_DS.exe
+﻿  main_source.c
+E:\DataStructures\DS\learn_DS\learn_DS\main_source.c(13,26): warning C4047: 'function': 'pNode' differs in levels of indirection from 'pNode *'
+E:\DataStructures\DS\learn_DS\learn_DS\main_source.c(13,20): warning C4024: 'reverseLinkedList': different types for formal and actual parameter 1
+  learn_DS.vcxproj -> E:\DataStructures\DS\learn_DS\x64\Debug\learn_DS.exe

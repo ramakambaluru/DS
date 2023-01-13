@@ -21,6 +21,9 @@
     <ClCompile Include="linkedlist.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="search_ algorithms.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="all_librabries.h">
